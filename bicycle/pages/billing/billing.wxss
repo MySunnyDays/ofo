@@ -1,0 +1,27 @@
+/* pages/billing/billing.wxss */
+.container{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.number,.button{
+    padding: 60rpx 0;
+    flex: 2;
+    width: 100%;
+    text-align: center;
+}
+.time {
+  flex: 6;
+  text-align: center;
+  width: 100%;
+}
+.time .time-content{
+  font-size: 100rpx;
+}
+.button button {
+  width:90%;
+  margin-top: 10rpx;
+}

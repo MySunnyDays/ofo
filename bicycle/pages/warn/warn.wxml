@@ -1,0 +1,23 @@
+<!--pages/warn/warn.wxml-->
+<view class='container'>
+  <view class='choose'>
+    <view class='title'>请选择故障类型</view>
+      <checkbox-group class="choose-grids">
+  <block wx:for="{{checkboxValue}}" wx:key="{{index}}">
+      <checkbox value='{{item.value}}' checked='{{item.checked}}'>{{item.value}}</checkbox>
+  </block>
+  </checkbox-group>
+  </view>
+  <view class='action'> 
+    <view class="title">拍摄单车周围环境，便于维  修师傅找车</view>
+  <view class='action-pic'>
+    <block wx:for="{{picUrls}}" wx:key="{{index}}">
+      <image src='{{item}}'></image>
+    </block>
+    <text class='add'>
+      拍照/相册
+    </text>  
+  </view>
+  </view>
+</view>
+

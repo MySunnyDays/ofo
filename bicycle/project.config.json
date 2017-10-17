@@ -1,0 +1,45 @@
+{
+	"description": "项目配置文件。",
+	"setting": {
+		"urlCheck": true,
+		"es6": true,
+		"postcss": true,
+		"minified": true
+	},
+	"compileType": "weapp",
+	"libVersion": "1.5.4",
+	"appid": "wx7feee2f9e33e18f8",
+	"projectname": "ofo-bicycle",
+	"condition": {
+		"weapp": {
+			"current": 2,
+			"list": [
+				{
+					"id": -1,
+					"name": "scanCode",
+					"pathName": "pages/scanCode/scanCode",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "billing",
+					"pathName": "pages/billing/billing",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "warn",
+					"pathName": "pages/warn/warn"
+				}
+			]
+		},
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		}
+	}
+}

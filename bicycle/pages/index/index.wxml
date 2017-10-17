@@ -1,0 +1,3 @@
+<!--pages/index/index.wxml-->
+<view class='container'><map id='ofoMap' latitude='{{latitude}}' longitude='{{longitude}}' show-location controls='{{controls}}' bindcontroltap='bindcontroltap'></map>  </view>
+<!-- map组件层级最高 -->
